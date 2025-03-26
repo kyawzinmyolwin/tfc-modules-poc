@@ -7,6 +7,7 @@ This is Terraform Workspace and Modules test.
 ### To Create New Workspace
 - Go To the folder `create-workspace`
 - run the `new_workspace.sh` and it will create the new folder.
+- Update the variables based on your requirements.
 - Run `terraform` from there.
 
 terraform.tfvars
