@@ -4,6 +4,11 @@ This is Terraform Workspace and Modules test.
 - TFC Token
 - OAuth Token for GitHub VCS
 
+### To Create New Workspace
+- Go To the folder `create-workspace`
+- run the `new_workspace.sh` and it will create the new folder.
+- Run `terraform` from there.
+
 terraform.tfvars
 ```
 org_name = "Your HCP Org Name"
