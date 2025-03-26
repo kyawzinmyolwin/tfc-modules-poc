@@ -1,7 +1,7 @@
 This is Terraform Workspace and Modules test.
 
 ### Prerequisites 
-- TFC Token
+- Generate TFC Token and `terraform login` with that token.
 - OAuth Token for GitHub VCS
 
 ### To Create New Workspace
