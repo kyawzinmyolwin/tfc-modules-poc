@@ -37,17 +37,10 @@ module "tfe_variables" {
   target_workspace = data.tfe_workspace.workspace_id.name
 
   vault_env_variables = {
-    "TFC_VAULT_NAMESPACE"     = "default_namespace"
-    "TFC_VAULT_PROVIDER_AUTH" = "true"
-    "TFC_VAULT_RUN_ROLE"      = "tfc-module-test-cluster2"
-    #For AWS Auth
-    "AWS_REGION"                          = "ap-southeast-1"
-    "TFC_VAULT_BACKED_AWS_AUTH"           = "true"
-    "TFC_VAULT_BACKED_AWS_AUTH_TYPE"      = "iam-user"
-    "TFC_VAULT_BACKED_AWS_MOUNT_PATH"     = "aws-dev"
-    "TFC_VAULT_BACKED_AWS_RUN_VAULT_ROLE" = "admin-access-role"
+    "HCP_CLIENT_ID" = ""
   }
   sensitive_env_variables = {
-    "TFC_VAULT_ADDR" = ""
+
+    "HCP_CLIENT_SECRET" = ""
   }
 }

@@ -22,3 +22,13 @@ working_directory = "GitHub Repo Working Dir"
 
 oauth_token_id = "xxx"
 ```
+### Instead of `comment out` just remove the variables if you don't need. 
+```
+vault_env_variables = {
+
+  }
+  sensitive_env_variables = {
+    "TFE_TOKEN" = ""
+  }
+
+```
