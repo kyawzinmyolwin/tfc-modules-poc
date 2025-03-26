@@ -1,9 +1,9 @@
 variable "workspace_id" {
   description = "Default Workspace ID jwt2"
-  default     = "ws-Qap3fZ6Sa6Kouf4n"
+  default     = ""
 }
 variable "workspace_name" {
-  default = "jwt-backend"
+  default = ""
 }
 variable "target_workspace" {
   default = "jwt-backend"
